@@ -1,0 +1,25 @@
+# Never publish runtime knowledge, model weights, workflows, snapshots or secrets.
+.env
+.env.*
+!.env.example
+backup.env
+backup/state/
+backup/staging/
+models/
+workflows/
+experience/
+system/
+skill-source/deployed-snapshots/
+MODELS.md
+*.zip
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
